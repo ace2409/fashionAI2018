@@ -1,4 +1,4 @@
-net: "/home/freedom/caffe/tianchifusai/InceptionV3/20180529/trainSkirtPant_inception-v4.prototxt"
+net: "/content/fashionAI/trainSkirtPant_inception-v4.prototxt"
 
 type:"RMSProp"
 rms_decay: 0.9
@@ -24,7 +24,7 @@ max_iter: 60000
 weight_decay: 0.0005
 
 snapshot: 10000
-snapshot_prefix: "/home/freedom/caffe/tianchifusai/InceptionV3/20180529/weights/InceptionV4_SkirtPant"
+snapshot_prefix: "/content/fashionAI/InceptionV4_SkirtPant"
 solver_mode: GPU
 
 #clip_gradients:60
