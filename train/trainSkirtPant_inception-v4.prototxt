@@ -32,13 +32,13 @@ layer {
     
   }
    image_data_param {
-    source: "/home/freedom/caffe/tianchifusai/InceptionV3/20180529/datatxt/length_pantandskirt.txt"
+    source: "/content/fashionAI2018/data/train/length_pantandskirt.txt"
     batch_size: 4
     shuffle:true
     new_height:420
     new_width:420
     label_dim:8
-    root_folder:"/home/freedom/Extraspace/"
+    root_folder:"/content/extra"
   }
 }
 
@@ -66,7 +66,7 @@ transform_param {
     new_height:420
     new_width:420
     label_dim:8
-    root_folder:"/home/freedom/Extraspace/"
+    root_folder:"/content/extra"
   }
 }
 
